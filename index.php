@@ -27,55 +27,54 @@ include("header.php");
 					<h1><center>Mes oeuvres</center></h1>
 				</div>
 				
-				
-				<div id="Filters">
+				<div class="containergauche">
+					<div id="Filters">
+						
+						<p>Filtrer par :</p>
+					</div>
 					
-					<p>Filtrer par :</p>
+					
+					<div class="Annees">
+						<label id="anne">Annee</label>
+					
+						<label name="coche">2017</label>
+						<input type="checkbox" name="coche"/>
+						
+						<label name="coche1">2018</label>
+						<input type="checkbox" name="coche1"/>
+						
+						<label name="coche2">2019</label>
+						<input type="checkbox" name="coche2"/>
+					</div>
+					
+					
+					<div class="Theme">
+						<label id="them">Theme</label>
+						
+						<label name="cochethem">Animaux</label>
+						<input type="checkbox" name="cochethem"/>
+						
+						<label name="cochethem1">Abstrait</label>
+						<input type="checkbox" name="cochethem1"/>
+						
+						<label name="cochethem2">Figurines</label>
+						<input type="checkbox" name="cochethem2"/>
+					</div>
 				</div>
-				
-				
-				<div class="Annees">
-					<label id="anne">Annee</label>
-					<br>
-				
-					<label name="coche">2017</label>
-					<input type="checkbox" name="coche"/>
-					
-					<label name="coche1">2018</label>
-					<input type="checkbox" name="coche1"/>
-					
-					<label name="coche2">2019</label>
-					<input type="checkbox" name="coche2"/>
+				<div class="containercentre">
+					<div class="Produit">
+						<form method="POST" id="chosepintur">
+							
+							<label>Test image</label>
+							<br>
+							<label>Test text oeuvre</label>
+							<br>
+							<input type="submit" name="achat_1" value="Acheter"/>
+							
+						</form>
+					</div>
 				</div>
-				
-				<br>
-				
-				<div class="Theme">
-					<label id="them">Theme</label>
-					<br>
-					
-					<label name="cochethem">Animaux</label>
-					<input type="checkbox" name="cochethem"/>
-					
-					<label name="cochethem1">Abstrait</label>
-					<input type="checkbox" name="cochethem1"/>
-					
-					<label name="cochethem2">Figurines</label>
-					<input type="checkbox" name="cochethem2"/>
-				</div>
-				
-				<div class="Produit">
-				<form method="POST" id="chosepintur">
-					
-					<label>Test image</label>
-					<br>
-					<label>Test text oeuvre</label>
-					<br>
-					<input type="submit" name="achat_1" value="Acheter"/>
-					
-				</form>
 			</div>
-			
 		</div>
 		
 		
