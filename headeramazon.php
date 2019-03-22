@@ -3,8 +3,8 @@
 	<head>
 		<title>Amazouille</title>
 		<meta charset="utf-8" />
-		<link rel="icon" type="Image/png" href="iconppe.png"/>
-		<link rel="stylesheet" type="text/css" href="styleamazouille.css" media="all"/>
+		<link rel="icon" type="Image/png" href="iconne.png"/>
+		<link rel="stylesheet" type="text/css" href="CSS/styleamazouille.css" media="all"/>
 	</head>
 	<body>
 		

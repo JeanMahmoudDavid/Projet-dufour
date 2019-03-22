@@ -1,0 +1,99 @@
+.corps
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+}
+
+.centreage
+{
+	display:flex;
+	flex-direction:column;
+	width: 1000px;
+	justify-content: space-between;
+}
+
+.Presentation
+{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.OeuvresTitle
+{
+	position: relative;
+	top: 0px;
+	left: -20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 1px;
+	background: grey;
+	border: 3px ;
+	border-style: dashed;
+	width : 750px;
+}
+
+.Filters
+{
+	top: 100px;
+}
+
+.Annees
+{
+	display:flex;
+	flex-direction:column;
+	justify-content: start;
+	
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.Theme
+{
+	display:flex;
+	flex-direction:column;
+	justify-content: start;
+	
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.moeuvres
+{
+	padding-bottom: 10px;
+	padding-left: 175px;
+	padding-right: 175px;
+	padding-top: 10px;
+	
+	background-color: lightgrey;
+}
+
+.Produit
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50%;
+	width: 30%;
+}
+
+#nomprenom
+{
+	font-size: 24px;
+}
+
+#lorem
+{
+	font-size: 12px;
+}
+
+#chosepintur
+{
+	margin-top: 50px;
+	font-size: 18px;
+}
