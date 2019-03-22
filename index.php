@@ -36,29 +36,44 @@ include("header.php");
 					
 					<div class="Annees">
 						<label id="anne">Annee</label>
-					
-						<label name="coche">2017</label>
-						<input type="checkbox" name="coche"/>
-						
+
+						<div id="2017">
+							<label name="coche">2017</label>
+							<input type="checkbox" name="coche"/>
+						</div>
+
+					<div id="2018">
 						<label name="coche1">2018</label>
 						<input type="checkbox" name="coche1"/>
+					</div>
 						
+					<div id="2019">
 						<label name="coche2">2019</label>
 						<input type="checkbox" name="coche2"/>
 					</div>
+				</div>
 					
 					
 					<div class="Theme">
 						<label id="them">Theme</label>
+
+						<div id="Animaux">
 						
 						<label name="cochethem">Animaux</label>
 						<input type="checkbox" name="cochethem"/>
 						
+						</div>
+
+						<div id="Astrait">
 						<label name="cochethem1">Abstrait</label>
 						<input type="checkbox" name="cochethem1"/>
-						
+						</div>
+
+						<div id="Figurines">
 						<label name="cochethem2">Figurines</label>
 						<input type="checkbox" name="cochethem2"/>
+						</div>
+						
 					</div>
 				</div>
 				<div class="containercentre">
