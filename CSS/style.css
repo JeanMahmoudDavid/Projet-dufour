@@ -13,6 +13,29 @@
 	justify-content: space-between;
 }
 
+.containergauche
+{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.containercentre
+{
+	margin-top:10px;
+	margin-left:100px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.groscontainer
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+}
+
 .Presentation
 {
 	margin-top:10px;

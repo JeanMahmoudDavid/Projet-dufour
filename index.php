@@ -26,67 +26,64 @@ include("header.php");
 				<div class="OeuvresTitle">
 					<h1><center>Mes oeuvres</center></h1>
 				</div>
-				
-				<div class="containergauche">
-					<div id="Filters">
-						
-						<p>Filtrer par :</p>
-					</div>
+				<div class="groscontainer">
+					<div class="containergauche">
 					
-					
-					<div class="Annees">
-						<label id="anne">Annee</label>
-
-						<div id="2017">
-							<label name="coche">2017</label>
-							<input type="checkbox" name="coche"/>
-						</div>
-
-					<div id="2018">
-						<label name="coche1">2018</label>
-						<input type="checkbox" name="coche1"/>
-					</div>
-						
-					<div id="2019">
-						<label name="coche2">2019</label>
-						<input type="checkbox" name="coche2"/>
-					</div>
-				</div>
-					
-					
-					<div class="Theme">
-						<label id="them">Theme</label>
-
-						<div id="Animaux">
-						
-						<label name="cochethem">Animaux</label>
-						<input type="checkbox" name="cochethem"/>
-						
-						</div>
-
-						<div id="Astrait">
-						<label name="cochethem1">Abstrait</label>
-						<input type="checkbox" name="cochethem1"/>
-						</div>
-
-						<div id="Figurines">
-						<label name="cochethem2">Figurines</label>
-						<input type="checkbox" name="cochethem2"/>
+						<div id="Filters">
+							<p>Filtrer par :</p>
 						</div>
 						
+						<div class="Annees">
+							<label id="anne">Annee</label>
+
+							<div id="2017">
+								<label name="coche">2017</label>
+								<input type="checkbox" name="coche"/>
+							</div>
+
+							<div id="2018">
+								<label name="coche1">2018</label>
+								<input type="checkbox" name="coche1"/>
+							</div>
+								
+							<div id="2019">
+								<label name="coche2">2019</label>
+								<input type="checkbox" name="coche2"/>
+							</div>
+						</div>
+						
+						<div class="Theme">
+							<label id="them">Theme</label>
+
+							<div id="Animaux">
+								<label name="cochethem">Animaux</label>
+								<input type="checkbox" name="cochethem"/>
+							</div>
+
+							<div id="Astrait">
+								<label name="cochethem1">Abstrait</label>
+								<input type="checkbox" name="cochethem1"/>
+							</div>
+
+							<div id="Figurines">
+								<label name="cochethem2">Figurines</label>
+								<input type="checkbox" name="cochethem2"/>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="containercentre">
-					<div class="Produit">
-						<form method="POST" id="chosepintur">
-							
-							<label>Test image</label>
-							<br>
-							<label>Test text oeuvre</label>
-							<br>
-							<input type="submit" name="achat_1" value="Acheter"/>
-							
-						</form>
+					
+					<div class="containercentre">
+						<div class="Produit">
+							<form method="POST" id="chosepintur">
+								
+								<label>Test image</label>
+								<br>
+								<label>Test text oeuvre</label>
+								<br>
+								<input type="submit" name="achat_1" value="Acheter"/>
+								
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
