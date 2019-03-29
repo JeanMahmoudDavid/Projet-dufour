@@ -1,5 +1,6 @@
 <?php
 include("header.php");
+
 ?>        
 		
 		<?php
@@ -9,7 +10,9 @@ include("header.php");
 				header('Location:amazon.php?achat_1=Acheter');
 			}
 		?>
-		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="JS/javascropt.js"></script>
+	
 		<div class="teute">
 		
 		</div>
@@ -20,8 +23,9 @@ include("header.php");
 					<label id="nomprenom">Leuh Miney</label>
 					<br>
 					<label id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</label>
+					<br>
+					
 				</div>
-				
 				<div class="OeuvresTitle">
 					<h1><center>Mes oeuvres</center></h1>
 				</div>
@@ -34,40 +38,29 @@ include("header.php");
 						
 						<div class="Annees">
 							<label id="anne">Annee</label>
-
-							<div id="2017">
-								<label name="coche">2017</label>
-								<input type="checkbox" name="coche"/>
-							</div>
-
-							<div id="2018">
-								<label name="coche1">2018</label>
-								<input type="checkbox" name="coche1"/>
-							</div>
-								
-							<div id="2019">
-								<label name="coche2">2019</label>
-								<input type="checkbox" name="coche2"/>
-							</div>
+							<?php
+								$ann = $bdd->query('SELECT * FROM Annee');
+								while ($annf = $ann->fetch())
+								{?>
+									<div id="<?php echo $annf['valannee']; ?>">
+										<label id="labelcoche<?php echo $annf['idAnnee']; ?>"><?php echo $annf['valannee']; ?></label>
+										<input type="checkbox" class="checkannee" id="<?php echo $annf['valannee']; ?>"/>
+									</div><?php
+								}?>
 						</div>
 						
 						<div class="Theme">
 							<label id="them">Theme</label>
-
-							<div id="Animaux">
-								<label name="cochethem">Animaux</label>
-								<input type="checkbox" name="cochethem"/>
-							</div>
-
-							<div id="Astrait">
-								<label name="cochethem1">Abstrait</label>
-								<input type="checkbox" name="cochethem1"/>
-							</div>
-
-							<div id="Figurines">
-								<label name="cochethem2">Figurines</label>
-								<input type="checkbox" name="cochethem2"/>
-							</div>
+							<?php
+								$tem = $bdd->query('SELECT * FROM Theme');
+								while ($temf = $tem->fetch())
+								{?>
+									<div id="<?php echo $temf['valtheme']; ?>">
+										<label id="labeltheme<?php echo $temf['idTheme']; ?>"><?php echo $temf['valtheme']; ?></label>
+										<input type="checkbox" class="checktheme" id="<?php echo $temf['valtheme']; ?>"/>
+									</div><?php
+								}?>
+							
 						</div>
 					</div>
 					
