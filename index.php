@@ -12,7 +12,6 @@ include("header.php");
 		
 		<div class="teute">
 		
-		
 		</div>
 	
 		<div class="corps">
@@ -76,9 +75,9 @@ include("header.php");
 						<div class="Produit">
 							<form method="POST" id="chosepintur">
 								
-								<label>Test image</label>
+								<label>Test d'une image.</label>
 								<br>
-								<label>Test text oeuvre</label>
+								<label>Ceci est un test d'une description d'une oeuvre</label>
 								<br>
 								<input type="submit" name="achat_1" value="Acheter"/>
 								
