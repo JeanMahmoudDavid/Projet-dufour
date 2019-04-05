@@ -7,5 +7,5 @@
 		<link rel="stylesheet" type="text/css" href="CSS/style.css" media="all"/>
 	</head>
 	<body>
-	<?php $bdd = new PDO('mysql:host=localhost;dbname=bddtpweb;charset=utf8', 'root', '');?>
+	<?php $bdd = new PDO('mysql:host=localhost;dbname=bddtpweb;charset=utf8', 'root', 'root');?>
 		
